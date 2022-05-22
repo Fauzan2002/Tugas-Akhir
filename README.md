@@ -10,7 +10,12 @@ Persamaan dasar adveksi 1D
 
 ![image](https://user-images.githubusercontent.com/105927079/169700996-e7aff633-64e7-4467-8a10-4b43c72caf89.png)
 
-Perubahan konsentrasi terhadap waktu dipengaruhi oleh kecepatan aliran fluida serta perubahan konsentrasi terhadap ruang 
+Persamaan tersebut dapat dibaca sebagai perubahan konsentrasi terhadap waktu dipengaruhi oleh kecepatan aliran fluida serta perubahan konsentrasi terhadap ruang 
+
+Terdapat berbagai macam metode penyelesaian dari persamaan adveksi, diantaranya yaitu FTCS (_Forward Time Center Space_), Leapfrog/CTCS (_Center Time Center Space_), dan Upstream
+
+Metode FTCS merupakan metode gabungan dari beberapa pendekatan beda hingga yaitu selisih maju terhadap waktu dan selisih pusat terhadap ruang. Solusi ini memiliki syarat kestabilan, yaitu ![image](https://user-images.githubusercontent.com/105927079/169706818-65ad54dd-6a60-4a41-bbe9-3928a7c0c77f.png)
+
 
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
