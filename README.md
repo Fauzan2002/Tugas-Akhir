@@ -7,7 +7,9 @@ Adveksi adalah pengangkutan materi dalam fluida, yaitu dengan air atau aliran ud
 Digunakan 2 pendekatan secara numerik yaitu implisit dan eksplisit 
 
 Persamaan dasar adveksi 1D 
+
 ![image](https://user-images.githubusercontent.com/105927079/169700996-e7aff633-64e7-4467-8a10-4b43c72caf89.png)
+
 Perubahan konsentrasi terhadap waktu dipengaruhi oleh kecepatan aliran fluida serta perubahan konsentrasi terhadap ruang 
 
 # Modul 2 = Persamaan Adveksi - Difusi 2D
