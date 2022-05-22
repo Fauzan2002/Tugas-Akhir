@@ -5,6 +5,7 @@ Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dik
 # Modul 1 = Persamaan Adveksi - Difusi 1D
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
+∂F/∂t= -u ∂F/∂x-v ∂F/∂x
 # Modul 3 = Persamaan Hidrodinamika 1D
 # Modul 4 = Persamaan Hidrodinamika 2D
 Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam
