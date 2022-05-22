@@ -7,7 +7,8 @@ Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dik
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
 Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial untuk hukum kekekalan.
 
-∂F/∂t= -u ∂F/∂x-v ∂F/∂x
+![adveksi](https://user-images.githubusercontent.com/105926904/169690594-614805b3-3ba2-48db-bf08-d8e3e4cb6b94.png)
+
 
 Difusi merupakan mekanisme penyebaran konsentrasi akibat adanya kecepatan aliran dan perbedaan konsentrasi
 
