@@ -12,7 +12,7 @@ Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial unt
 
 Difusi merupakan mekanisme penyebaran konsentrasi akibat adanya kecepatan aliran dan perbedaan konsentrasi
 
-∂F/∂t= A_d  (∂^2 F)/(∂x^2 )+A_d  (∂^2 F)/(∂y^2)
+![difusi](https://user-images.githubusercontent.com/105926904/169690723-3a60b557-3bd4-4a33-a461-fabc98cb716c.png)
 
 ∂F/∂t= -u ∂F/∂x-v ∂F/∂x 	∂F/∂t= A_d  (∂^2 F)/(∂x^2 )+A_d  (∂^2 F)/(∂y^2)
 
