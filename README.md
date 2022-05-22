@@ -9,6 +9,8 @@ Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial unt
 
 ∂F/∂t= -u ∂F/∂x-v ∂F/∂x
 
+Difusi 
+
 Metode Eksplisit pada model adveksi, persamaan beda hingga menggunakan pendekatan beda maju untuk turunan waktu, sedangkan turunan ruang dilakukan dengan melihat arah kecepatan. Jika u>0, pendekatan beda mundur. Jika u<0, pendekatan beda maju.
 
 Diskritasi suku adveksi 2 dimensi:
