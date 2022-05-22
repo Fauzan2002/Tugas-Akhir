@@ -3,8 +3,12 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 # Definisi Pemodelan Oseanografi 
 Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dikembangkan dari sifat atau karakteristik objek sebelumnya. Pemodelan merupakan suatu langkah peniruan fenomena yang ada di alam. Pemodelan oseanografi sendiri merupakan suatu sistem untuk mempelajari suatu fenomena oseanografi (dinamika laut) ke dalam persamaan matematis dengan model numerik. Model numerik ini dapat menjelaskan kondisi pasang surut, arus, gelombangserta kondisi hidrodinamika di laut.
 # Modul 1 = Persamaan Adveksi - Difusi 1D
-Adveksi adalah pengangkutan materi dalam fluida, yaitu dengan air atau aliran udara, dimana kontaminan akan bergerak dengan cairan fluida pengangkutnya.![image](https://user-images.githubusercontent.com/105927079/169700191-de3097af-344f-47c4-99f5-19d2fc4e9637.png)
+Adveksi adalah pengangkutan materi dalam fluida, yaitu dengan air atau aliran udara, dimana kontaminan akan bergerak dengan cairan fluida pengangkutnya.
 Digunakan 2 pendekatan secara numerik yaitu implisit dan eksplisit 
+
+Persamaan dasar adveksi 1D 
+![image](https://user-images.githubusercontent.com/105927079/169700996-e7aff633-64e7-4467-8a10-4b43c72caf89.png)
+Perubahan konsentrasi terhadap waktu dipengaruhi oleh kecepatan aliran fluida serta perubahan konsentrasi terhadap ruang 
 
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
