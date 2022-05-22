@@ -5,7 +5,6 @@ Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dik
 # Modul 1 = Persamaan Adveksi - Difusi 1D
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
-
 Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial untuk hukum kekekalan.
 
 ∂F/∂t= -u ∂F/∂x-v ∂F/∂x
@@ -17,10 +16,14 @@ Diskritasi suku difusi 2 dimensi:
 ![image](https://user-images.githubusercontent.com/105926880/169685716-eb077b84-10c1-4d48-8174-5a24a9148cd4.png)
 
 Penerapan dalam bidang Oseanografi:
-Menghitung dan memodelkan persebaran nutrient di laut atau sungai,
-Menghitung dan memodelkan persebaran polutan dari proses industri,
-Mengetahui persebaran polutan dari laguna dengan menghitung input dan outputnya dan
-Mengetahui sebaran kebocoran minyak di laut
+
+- Menghitung dan memodelkan persebaran nutrient di laut atau sungai
+
+- Menghitung dan memodelkan persebaran polutan dari proses industri
+
+- Mengetahui persebaran polutan dari laguna dengan menghitung input dan outputnya 
+
+- Mengetahui sebaran kebocoran minyak di laut
 
 # Modul 3 = Persamaan Hidrodinamika 1D
 # Modul 4 = Persamaan Hidrodinamika 2D
