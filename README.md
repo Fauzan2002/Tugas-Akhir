@@ -13,6 +13,8 @@ Difusi merupakan mekanisme penyebaran konsentrasi akibat adanya kecepatan aliran
 
 ∂F/∂t= A_d  (∂^2 F)/(∂x^2 )+A_d  (∂^2 F)/(∂y^2)
 
+∂F/∂t= -u ∂F/∂x-v ∂F/∂x 	∂F/∂t= A_d  (∂^2 F)/(∂x^2 )+A_d  (∂^2 F)/(∂y^2)
+
 Metode Eksplisit pada model adveksi, persamaan beda hingga menggunakan pendekatan beda maju untuk turunan waktu, sedangkan turunan ruang dilakukan dengan melihat arah kecepatan. Jika u>0, pendekatan beda mundur. Jika u<0, pendekatan beda maju.
 
 Diskritasi suku adveksi 2 dimensi:
