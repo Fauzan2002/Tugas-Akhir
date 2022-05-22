@@ -9,7 +9,9 @@ Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial unt
 
 ∂F/∂t= -u ∂F/∂x-v ∂F/∂x
 
-Difusi 
+Difusi merupakan mekanisme penyebaran konsentrasi akibat adanya kecepatan aliran dan perbedaan konsentrasi
+
+∂F/∂t= A_d  (∂^2 F)/(∂x^2 )+A_d  (∂^2 F)/(∂y^2)
 
 Metode Eksplisit pada model adveksi, persamaan beda hingga menggunakan pendekatan beda maju untuk turunan waktu, sedangkan turunan ruang dilakukan dengan melihat arah kecepatan. Jika u>0, pendekatan beda mundur. Jika u<0, pendekatan beda maju.
 
