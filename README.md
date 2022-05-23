@@ -21,6 +21,7 @@ Terdapat berbagai macam metode penyelesaian dari persamaan adveksi, diantaranya 
 Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat akan bergerak dari daerah berkonsentrasi tinggi ke daerah dengan konsentrasi lebih rendah sehingga akan menghasilkan konsentrasi yang sama di dalam zat tersebut. 
 
 Persamaan dasar difusi 1D
+
 ![image](https://user-images.githubusercontent.com/105927079/169743687-09aee6f4-223a-44bb-aad5-6e94b5a20d5f.png)
 
 
