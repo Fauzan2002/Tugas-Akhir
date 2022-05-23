@@ -18,6 +18,12 @@ Terdapat berbagai macam metode penyelesaian dari persamaan adveksi, diantaranya 
 2. Leapfrog/CTCS (_Center Time Center Space_) merupakan perluasan metode beda tengah terhadap ruang dan waktu. Skema metode ini didapatkan dari hasil turunan deret taylor dan termasuk skema yang konsisten jika C ≤ 1
 3. Upstream (_Forward Time, Forward/Back Space_) merupakan penyempurna metode leapfrog yang dibuat untuk model positif. Metode ini menggunakan turunan beda maju untuk grid waktu dan untuk grid ruang bergantung pada arah kecepatan U. U > 0, turunan ruang dengan beda mundur ; U < 0, digunakan pendekatan beda maju untuk turunan ruang 
 
+Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat akan bergerak dari daerah berkonsentrasi tinggi ke daerah dengan konsentrasi lebih rendah sehingga akan menghasilkan konsentrasi yang sama di dalam zat tersebut. 
+
+Persamaan dasar difusi 1D
+![image](https://user-images.githubusercontent.com/105927079/169743687-09aee6f4-223a-44bb-aad5-6e94b5a20d5f.png)
+
+
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
 Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial untuk hukum kekekalan.
