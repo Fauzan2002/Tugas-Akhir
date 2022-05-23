@@ -1,5 +1,13 @@
-# Tugas-Akhir
+# Tugas-Akhir Praktikum Pemodelan Oseanografi Kelompok 17 
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan metode numerik untuk penyelesaian perhitungan numerik. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, IPython, Scipy, dan Pprint. Seluruh script yang dibuat adalah hasil kelompok 17 Oseanografi 2020. Semoga dapat bermanfaat!
+# Authors (Kelompok 17)
+1. Achmad Suva Fauzan     (26050120130049)
+2. Ahmad Fauzi            (26050120140130)
+3. Cheril Fadhia Azarine  (26050120140149)
+4. Juwita Novianti        (26050120130101)
+5. Nanda Marissa          (26050120140068)
+6. Rio Prasetyo Marpaung  (26050120140047)
+7. Syah Malfin Nazir      (26050120140129)
 # Definisi Pemodelan Oseanografi 
 Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dikembangkan dari sifat atau karakteristik objek sebelumnya. Pemodelan merupakan suatu langkah peniruan fenomena yang ada di alam. Pemodelan oseanografi sendiri merupakan suatu sistem untuk mempelajari suatu fenomena oseanografi (dinamika laut) ke dalam persamaan matematis dengan model numerik. Model numerik ini dapat menjelaskan kondisi pasang surut, arus, gelombang serta kondisi hidrodinamika di laut.
 # Modul 1 = Persamaan Adveksi - Difusi 1D
