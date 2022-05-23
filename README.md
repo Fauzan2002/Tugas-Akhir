@@ -26,29 +26,32 @@ Terdapat berbagai macam metode penyelesaian dari persamaan adveksi, diantaranya 
 3. Upstream (_Forward Time, Forward/Back Space_) merupakan penyempurna metode leapfrog yang dibuat untuk model positif. Metode ini menggunakan turunan beda maju untuk grid waktu dan untuk grid ruang bergantung pada arah kecepatan U. U > 0, turunan ruang dengan beda mundur ; U < 0, digunakan pendekatan beda maju untuk turunan ruang 
 
 Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat akan bergerak dari daerah berkonsentrasi tinggi ke daerah dengan konsentrasi lebih rendah sehingga akan menghasilkan konsentrasi yang sama di dalam zat tersebut. Faktor-faktor yang mempengaruhi kecepatan difusi, yaitu ukuran partikel, ketebalan membran, luas area, jarak dan suhu.
+
 ![image](https://user-images.githubusercontent.com/105935057/169763347-23749c69-69fd-4bc9-8954-d1acd53247a5.png)
 
 Persamaan dasar Difusi 1D
+
 ![image](https://user-images.githubusercontent.com/105927079/169743687-09aee6f4-223a-44bb-aad5-6e94b5a20d5f.png)
 
 Diskritisasi 1 D proses Difusi
+
 ![image](https://user-images.githubusercontent.com/105935057/169765892-aea31ee7-adca-4bd0-b4cc-f74f3b308e54.png)
 
 Dari diskritisasi 1D persamaan Adveksi dan Difusi, maka kita dapatkan persamaan adveksi-difusi 1D, dengan memisal kan
+
 ![image](https://user-images.githubusercontent.com/105935057/169766446-9e071f10-d0c3-451a-8cf7-db777edb3fcd.png)
 
 Persamaan tersebut menjadi:
+
 ![image](https://user-images.githubusercontent.com/105935057/169766741-18efba59-66dd-48dc-ad8b-8aae2dadac4f.png)
 
 Jika kita menerapkan metode beda maju untuk waktu, upstream untuk adveksi, dan beda tengah untuk difusi, maka persamaannya menjadi:
+
 ![image](https://user-images.githubusercontent.com/105935057/169766811-57f1e6ba-00ad-4fdf-b1ba-2a5daa088acb.png)
 
 Dengan syarat kestabilan yang harus dipenuhi:
-![image](https://user-images.githubusercontent.com/105935057/169767036-69629c37-afaf-4972-adc0-165fa4368e7c.png)
-dan
-![image](https://user-images.githubusercontent.com/105935057/169767093-61acecf0-027e-48dc-9f6c-e7e020da0bfc.png)
 
-
+![image](https://user-images.githubusercontent.com/105935057/169767914-3c28cc77-6c48-4b6c-9ba0-3e3b33dad8bd.png)
 
 
 # Modul 2 = Persamaan Adveksi - Difusi 2D
