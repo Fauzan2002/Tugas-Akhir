@@ -70,6 +70,7 @@ Penerapan Adveksi-Difusi 1D di dalam bidang Oseaografi :
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
 Persamaan adveksi merupakan bentuk khusus dari persamaan diferensial parsial untuk hukum kekekalan.
+Berikut merupakan persamaan Adveksi
 
 ![adveksi](https://user-images.githubusercontent.com/105926904/169690594-614805b3-3ba2-48db-bf08-d8e3e4cb6b94.png)
 
