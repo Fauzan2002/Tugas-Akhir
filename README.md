@@ -51,6 +51,13 @@ Dengan syarat kestabilan yang harus dipenuhi:
 
 ![image](https://user-images.githubusercontent.com/105935057/169767914-3c28cc77-6c48-4b6c-9ba0-3e3b33dad8bd.png)
 
+Penerapan Adveksi-Difusi 1D di dalam bidang Oseaografi :
+
+- Mengetahui konsentrasi dan penyebaran polutan di sungai, parit, dan cabang sungai
+
+- Pemodelan polutan
+
+- Konservasi lingkungan
 
 # Modul 2 = Persamaan Adveksi - Difusi 2D
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. 
