@@ -94,4 +94,32 @@ Penerapan dalam bidang Oseanografi:
 
 # Modul 3 = Persamaan Hidrodinamika 1D
 # Modul 4 = Persamaan Hidrodinamika 2D
+
+Perbedaan Antara 1 Dimensi dan 2 Dimensi
+
+1 Dimensi :
+- Penampang (cross section) tegak lurus terhadap aliran sungai
+- Ketinggian air (water level) sama di seluruh penampang
+- Kecepatan sama di seluruh penampang
+- Lebih cocok untuk gradien yang rendah (tidak ada kemiringan)
+- Digunakan untuk meneliti kadar kimia berdasarkan kedalaman atau luasannya
+
+2 Dimensi :
+- Kecepatan arus dan gelombang berbeda-beda
+- Daerah yang direpresentasikan adalah x dan y
+- Lebih cocok diterapkan pada kemiringan yang curam
+- Kedalaman air tidak sama
+- Digunakan  untuk meneliti kadar zat kimia berdasarkan kedalaman dan luasan di daerah penelitian
+
+Konsep Model Hidrodinamika 2D
+
+- Adanya 2 (dua) parameter yang dipakai atau di cari seperti pergerakan arus dan pengaruhnya (contoh: pergerakan sedimen)
+- Anomali, dimana anomali ini dapat mengganggu hasil pemodelan. Dalam pemodelan gelombang, anomali ini dapat ditunjukkan seperti adanya badai yag dapat mempengaruhi angin pada perairan tersebut.
+
+Penerapan di Bidang Oseanografi
+
+- Pemodelan gelombang karena angin
+- Pemodelan sampah plastik di laut
+- Pemodelan coastal dynamics dan sedimentasi pantai
+
 Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam
