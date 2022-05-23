@@ -29,11 +29,9 @@ Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat aka
 ![image](https://user-images.githubusercontent.com/105935057/169763347-23749c69-69fd-4bc9-8954-d1acd53247a5.png)
 
 Persamaan dasar Difusi 1D
-
 ![image](https://user-images.githubusercontent.com/105927079/169743687-09aee6f4-223a-44bb-aad5-6e94b5a20d5f.png)
 
 Diskritisasi 1 D proses Difusi
-
 ![image](https://user-images.githubusercontent.com/105935057/169765892-aea31ee7-adca-4bd0-b4cc-f74f3b308e54.png)
 
 Dari diskritisasi 1D persamaan Adveksi dan Difusi, maka kita dapatkan persamaan adveksi-difusi 1D, dengan memisal kan
@@ -47,7 +45,6 @@ Jika kita menerapkan metode beda maju untuk waktu, upstream untuk adveksi, dan b
 
 Dengan syarat kestabilan yang harus dipenuhi:
 ![image](https://user-images.githubusercontent.com/105935057/169767036-69629c37-afaf-4972-adc0-165fa4368e7c.png)
-
 dan
 ![image](https://user-images.githubusercontent.com/105935057/169767093-61acecf0-027e-48dc-9f6c-e7e020da0bfc.png)
 
