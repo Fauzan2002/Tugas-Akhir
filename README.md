@@ -25,7 +25,7 @@ Terdapat berbagai macam metode penyelesaian dari persamaan adveksi, diantaranya 
 2. Leapfrog/CTCS (_Center Time Center Space_) merupakan perluasan metode beda tengah terhadap ruang dan waktu. Skema metode ini didapatkan dari hasil turunan deret taylor dan termasuk skema yang konsisten jika C ≤ 1
 3. Upstream (_Forward Time, Forward/Back Space_) merupakan penyempurna metode leapfrog yang dibuat untuk model positif. Metode ini menggunakan turunan beda maju untuk grid waktu dan untuk grid ruang bergantung pada arah kecepatan U. U > 0, turunan ruang dengan beda mundur ; U < 0, digunakan pendekatan beda maju untuk turunan ruang 
 
-Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat akan bergerak dari daerah berkonsentrasi tinggi ke daerah dengan konsentrasi lebih rendah sehingga akan menghasilkan konsentrasi yang sama di dalam zat tersebut. Faktor-faktor yang mempengaruhi kecepatan difusi, yaitu ukuran partikel, ketebalan membran, luas area, jarak dan suhu.
+Difusi merupakan proses transport pasif. Di dalam proses difusi partikel zat akan bergerak dari daerah berkonsentrasi tinggi ke daerah dengan konsentrasi lebih rendah sehingga akan menghasilkan konsentrasi yang sama di dalam zat tersebut. Faktor-faktor yang mempengaruhi kecepatan difusi yaitu ukuran partikel, ketebalan membran, luas area, jarak dan suhu.
 
 ![image](https://user-images.githubusercontent.com/105935057/169763347-23749c69-69fd-4bc9-8954-d1acd53247a5.png)
 
