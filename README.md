@@ -111,7 +111,8 @@ Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas
 
 **Library Pemrograman**
 
-import matplotlib.pyplot as plt'
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Modul 4 = Persamaan Hidrodinamika 2D
 
