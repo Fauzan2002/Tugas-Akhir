@@ -173,6 +173,8 @@ if cfl >= q:
 #%%
 ```
 Adapun hasil dari pemodelan ini adalah sebagai berikut 
+![1](https://user-images.githubusercontent.com/105926713/170093933-ee467a0a-fa87-4913-bcca-a46fc54eb018.jpg)
+![50](https://user-images.githubusercontent.com/105926713/170094012-79120a61-d66e-439a-b262-3f3f80d099e6.jpg)
 
 # Modul 3 = Persamaan Hidrodinamika 1D
 Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, dimana fluida dianggap tidak termampatkan (incompressible) dan tidak memiliki viskositas atau dapat diabaikan. Dalam ilmu hidrodinamika, terdapat setidaknya 3 pemodelan yang digunakan dalam berbagai bidang yaitu Model Hidrodinamika 1-Dimensi, 2-Dimensi, dan 3-Dimensi. Pada modoul ini, pemodelan hidrodinamika yang digunakan adalah model hidrodinamika 1-Dimensi yang merupakan model paling sederhana dengan arah tinjauan satu sumbu saja; sumbu x atau sumbu y.
