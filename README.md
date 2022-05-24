@@ -106,6 +106,68 @@ Penerapan dalam bidang Oseanografi:
 
 - Mengetahui sebaran kebocoran minyak di laut
 
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+
+def percentage(part, whole):
+    percentage = 100 * float(part)/float(whole)
+    return str(round(percentage,2)) + "x"
+
+#Masukan Parameter Awal
+C = 1.94
+ad = 1.94
+
+#Arah Arus
+theta = 94
+#theta = 154
+#theta = 229
+#theta = 409
+
+#Parameter Lanjutan
+q = 0.95 
+x = 500 
+y = 500 
+dt = 0.5 
+dx = 5 
+dy = 5 
+
+#Lama Simulasi
+Tend = 101
+#Tend = 0,5
+dt = 0.5
+
+#Polutan
+px = 250
+py = 239
+Ic = 1094
+
+#Perhitungan U dan V
+u = C * np.sin(theta*np.pi/180)
+v = C * np.cos(theta*np.pi/180)
+dt_count = 1/((abs(u)/(q*dx))+(abs(v)/(q*dy))+(2*ad/(q*dx**2))+(2*ad/(q*dy*2)))
+
+Nx = int(x/dx)  #number of mesh in x direction
+Ny = int(y/dy)  #number of mesh in y direction
+Nt = int(Tend/dt)
+
+#perhitungan titik polutan di buang
+px1 = int(px/dx)
+py1 = int(py/dy)
+
+#fungsi disederhanakan
+lx = u*dt/dx
+ly = v*dt/dy
+ax = ad*dt/dx**2
+ay = ad*dt/dy**2
+cfl = (2*ax + 2*ay + abs(lx) + abs(ly))  #syarat kestabilan CFL
+
+#perhitungan cfl
+if cfl >= q:
+    print('CFL Violated, please use dt :'+str(round(dt_count,4)))
+    sys.exit ()
+#%%
+
 # Modul 3 = Persamaan Hidrodinamika 1D
 Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, dimana fluida dianggap tidak termampatkan (incompressible) dan tidak memiliki viskositas atau dapat diabaikan. Dalam ilmu hidrodinamika, terdapat setidaknya 3 pemodelan yang digunakan dalam berbagai bidang yaitu Model Hidrodinamika 1-Dimensi, 2-Dimensi, dan 3-Dimensi. Pada modoul ini, pemodelan hidrodinamika yang digunakan adalah model hidrodinamika 1-Dimensi yang merupakan model paling sederhana dengan arah tinjauan satu sumbu saja; sumbu x atau sumbu y.
 
