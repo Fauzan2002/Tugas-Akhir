@@ -1,5 +1,5 @@
 # Tugas-Akhir Praktikum Pemodelan Oseanografi Kelompok 17 
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan metode numerik untuk penyelesaian perhitungan numerik. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, IPython, Scipy, dan Pprint. Seluruh script yang dibuat adalah hasil kelompok 17 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan metode numerik untuk penyelesaian perhitungan numerik. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, dan Siphon. Seluruh script yang dibuat adalah hasil kelompok 17 Oseanografi 2020. Semoga dapat bermanfaat!
 # Authors (Kelompok 17)
 1. Achmad Suva Fauzan     (26050120130049)
 2. Ahmad Fauzi            (26050120140130)
@@ -8,8 +8,10 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 5. Nanda Marissa          (26050120140068)
 6. Rio Prasetyo Marpaung  (26050120140047)
 7. Syah Malfin Nazir      (26050120140129)
+
 # Definisi Pemodelan Oseanografi 
 Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dikembangkan dari sifat atau karakteristik objek sebelumnya. Pemodelan merupakan suatu langkah peniruan fenomena yang ada di alam. Pemodelan oseanografi sendiri merupakan suatu sistem untuk mempelajari suatu fenomena oseanografi (dinamika laut) ke dalam persamaan matematis dengan model numerik. Model numerik ini dapat menjelaskan kondisi pasang surut, arus, gelombang serta kondisi hidrodinamika di laut. Praktikum kali ini akan membahas mengenai empat persamaan yang familiar digunakan dalam pemodelan, yaitu persamaan adveksi difusi 1D dan 2D, serta persamaan hidrodinamika 1D dan 2D. Keempat persamaan ini akan menjadi dasar dari pemodelan hidroseanografi yang dipakai dalam berbagai penelitian.
+
 # Modul 1 = Persamaan Adveksi - Difusi 1D
 Adveksi adalah pengangkutan materi dalam fluida, yaitu dengan air atau aliran udara, dimana kontaminan akan bergerak dengan cairan fluida pengangkutnya.
 Digunakan 2 pendekatan secara numerik yaitu implisit dan eksplisit 
@@ -170,6 +172,7 @@ if cfl >= q:
     sys.exit ()
 #%%
 ```
+Adapun hasil dari pemodelan ini adalah sebagai berikut 
 
 # Modul 3 = Persamaan Hidrodinamika 1D
 Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, dimana fluida dianggap tidak termampatkan (incompressible) dan tidak memiliki viskositas atau dapat diabaikan. Dalam ilmu hidrodinamika, terdapat setidaknya 3 pemodelan yang digunakan dalam berbagai bidang yaitu Model Hidrodinamika 1-Dimensi, 2-Dimensi, dan 3-Dimensi. Pada modoul ini, pemodelan hidrodinamika yang digunakan adalah model hidrodinamika 1-Dimensi yang merupakan model paling sederhana dengan arah tinjauan satu sumbu saja; sumbu x atau sumbu y.
