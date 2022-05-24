@@ -191,7 +191,7 @@ dt = 2
 dx = 100
 To = 300 #Periode
 
-Pameter Lanjutan
+Parameter Lanjutan
 g = 9.8
 pi = np.pi 
 C = np.sqrt(g*D) #Kecepatan Arus
@@ -339,3 +339,20 @@ Penerapan di Bidang Oseanografi
 - Pemodelan coastal dynamics dan sedimentasi pantai
 
 Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam. Dan persamaan ini merupakan persamaan yang yang menjadi dasar dalam aplikasi pemodelan, semisal Delft 3D dan MIKE 21. Contoh dalam penggunaan script pada modeling hodrodinamika 2 dimensi ini adalah sebagai berikut:
+
+**Persamaan Awal**
+```
+# Copyright (c) 2018 Siphon Contributors.
+# Distributed under the terms of the BSD 3-Clause License.
+# SPDX-License-Identifier: BSD-3-Clause
+"""
+NDBC Bouy Meteorological Data Request
+=====================================
+The NDBC keeps a 45-day recent rolling file for each bouy. This examples shows how to access
+the basic meteorogical data from a buoy and make a simple plot.
+"""
+
+import matplotlib.pyplot as plt
+
+from siphon.simplewebservice.ndbc import NDBC
+```
