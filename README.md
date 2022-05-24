@@ -231,6 +231,7 @@ plt.show()
 ```
 
 **Contoh Hasil Grafik**
+
 <img width="421" alt="image" src="https://user-images.githubusercontent.com/105927357/169933049-d4016852-3f10-4fd0-a21c-4fe1182eb2e2.png">
 
 <img width="426" alt="image" src="https://user-images.githubusercontent.com/105927357/169933089-a10b7a70-6e33-4a41-9ab1-ce60765f641f.png">
