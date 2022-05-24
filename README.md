@@ -105,6 +105,7 @@ Penerapan dalam bidang Oseanografi:
 - Mengetahui sebaran kebocoran minyak di laut
 
 # Modul 3 = Persamaan Hidrodinamika 1D
+Hidrodinamika adalah 
 # Modul 4 = Persamaan Hidrodinamika 2D
 
 Perbedaan Antara 1 Dimensi dan 2 Dimensi
