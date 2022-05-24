@@ -106,6 +106,8 @@ Penerapan dalam bidang Oseanografi:
 
 - Mengetahui sebaran kebocoran minyak di laut
 
+Pemodelan ini adalah lanjutan dari persamaan adveksi difusi 1D. adapun pemodelan yang telah dibuat adalah sebagai berikut
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
@@ -167,6 +169,7 @@ if cfl >= q:
     print('CFL Violated, please use dt :'+str(round(dt_count,4)))
     sys.exit ()
 #%%
+```
 
 # Modul 3 = Persamaan Hidrodinamika 1D
 Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, dimana fluida dianggap tidak termampatkan (incompressible) dan tidak memiliki viskositas atau dapat diabaikan. Dalam ilmu hidrodinamika, terdapat setidaknya 3 pemodelan yang digunakan dalam berbagai bidang yaitu Model Hidrodinamika 1-Dimensi, 2-Dimensi, dan 3-Dimensi. Pada modoul ini, pemodelan hidrodinamika yang digunakan adalah model hidrodinamika 1-Dimensi yang merupakan model paling sederhana dengan arah tinjauan satu sumbu saja; sumbu x atau sumbu y.
