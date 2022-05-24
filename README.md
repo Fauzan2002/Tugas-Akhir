@@ -418,3 +418,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 plt.show()
 ```
+
+Adapun pada pemodelan ini didapatkan hasil sebagai berikut
+![download](https://user-images.githubusercontent.com/105926713/170096712-c44b85f3-c84e-46b7-9dc4-b26c3947dbb0.png)
+
