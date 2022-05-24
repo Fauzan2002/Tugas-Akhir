@@ -9,7 +9,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Rio Prasetyo Marpaung  (26050120140047)
 7. Syah Malfin Nazir      (26050120140129)
 # Definisi Pemodelan Oseanografi 
-Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dikembangkan dari sifat atau karakteristik objek sebelumnya. Pemodelan merupakan suatu langkah peniruan fenomena yang ada di alam. Pemodelan oseanografi sendiri merupakan suatu sistem untuk mempelajari suatu fenomena oseanografi (dinamika laut) ke dalam persamaan matematis dengan model numerik. Model numerik ini dapat menjelaskan kondisi pasang surut, arus, gelombang serta kondisi hidrodinamika di laut.
+Secara umum, model merupakan suatu tiruan dari benda ataupun objek yang akan dikembangkan dari sifat atau karakteristik objek sebelumnya. Pemodelan merupakan suatu langkah peniruan fenomena yang ada di alam. Pemodelan oseanografi sendiri merupakan suatu sistem untuk mempelajari suatu fenomena oseanografi (dinamika laut) ke dalam persamaan matematis dengan model numerik. Model numerik ini dapat menjelaskan kondisi pasang surut, arus, gelombang serta kondisi hidrodinamika di laut. Praktikum kali ini akan membahas mengenai empat persamaan yang familiar digunakan dalam pemodelan, yaitu persamaan adveksi difusi 1D dan 2D, serta persamaan hidrodinamika 1D dan 2D. Keempat persamaan ini akan menjadi dasar dari pemodelan hidroseanografi yang dipakai dalam berbagai penelitian.
 # Modul 1 = Persamaan Adveksi - Difusi 1D
 Adveksi adalah pengangkutan materi dalam fluida, yaitu dengan air atau aliran udara, dimana kontaminan akan bergerak dengan cairan fluida pengangkutnya.
 Digunakan 2 pendekatan secara numerik yaitu implisit dan eksplisit 
@@ -265,8 +265,8 @@ Perbedaan Antara 1 Dimensi dan 2 Dimensi
 
 Konsep Model Hidrodinamika 2D
 
-- Adanya 2 (dua) parameter yang dipakai atau di cari seperti pergerakan arus dan pengaruhnya (contoh: pergerakan sedimen)
-- Anomali, dimana anomali ini dapat mengganggu hasil pemodelan. Dalam pemodelan gelombang, anomali ini dapat ditunjukkan seperti adanya badai yag dapat mempengaruhi angin pada perairan tersebut.
+- Adanya 2 (dua) parameter yang dipakai atau dicari seperti pergerakan arus dan pengaruhnya (contoh: pergerakan sedimen). Parameter ini biasanya akan ditemukan dalam berbagai website pemerintah atau bisa berasal dari penelitian lapangan yang kita lakukan
+- Anomali, dimana anomali ini dapat mengganggu hasil pemodelan. Dalam pemodelan gelombang, anomali ini dapat ditunjukkan seperti adanya badai yang dapat mempengaruhi angin pada perairan tersebut. Anomali ini juga akan menentukan korelasi atau hubungan antar parameter tersebut, apakah positif atau negatif
 
 Penerapan di Bidang Oseanografi
 
@@ -274,4 +274,4 @@ Penerapan di Bidang Oseanografi
 - Pemodelan sampah plastik di laut
 - Pemodelan coastal dynamics dan sedimentasi pantai
 
-Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam
+Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam. Dan persamaan ini merupakan persamaan yang yang menjadi dasar dalam aplikasi pemodelan, semisal Delft 3D dan MIKE 21
