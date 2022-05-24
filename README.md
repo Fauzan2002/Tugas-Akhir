@@ -338,7 +338,8 @@ Penerapan di Bidang Oseanografi
 - Pemodelan sampah plastik di laut
 - Pemodelan coastal dynamics dan sedimentasi pantai
 
-Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam. Dan persamaan ini merupakan persamaan yang yang menjadi dasar dalam aplikasi pemodelan, semisal Delft 3D dan MIKE 21. Contoh dalam penggunaan script pada modeling hodrodinamika 2 dimensi ini adalah sebagai berikut:
+Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam. Dan persamaan ini merupakan persamaan yang yang menjadi dasar dalam aplikasi pemodelan, semisal Delft 3D dan MIKE 21. Contoh dalam penggunaan script pada modeling hidrodinamika 2 dimensi ini adalah pada pemodelan NDBC.
+NDBC/National Data Buoy Center adalah sebuah website di bawah kendali NOAA/National Oceanic and Atmospheric Administration untuk menyediakan data mengenai data hidroseanografi yang terdapat pada buoy. Buoy tersebut tersebar di beberapa perairan di seluruh dunia dari pesisir barat dan timur AS hingga Australia dan Kutub Utara. Adapun penelitian kali ini adalah untuk mengetahui parameter hidroseanografi yang terdeteksi di suatu buoy. Adapun pemodelan ini menggunakan Python dengan susunan sebagai berikut:
 
 **Persamaan Awal**
 ```
