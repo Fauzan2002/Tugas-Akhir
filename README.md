@@ -173,6 +173,7 @@ if cfl >= q:
 #%%
 ```
 Adapun hasil dari pemodelan ini adalah sebagai berikut
+
 **Timestep = 0**
 ![1](https://user-images.githubusercontent.com/105926713/170093933-ee467a0a-fa87-4913-bcca-a46fc54eb018.jpg)
 
