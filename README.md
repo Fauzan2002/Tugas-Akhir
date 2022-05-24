@@ -105,7 +105,13 @@ Penerapan dalam bidang Oseanografi:
 - Mengetahui sebaran kebocoran minyak di laut
 
 # Modul 3 = Persamaan Hidrodinamika 1D
-Hidrodinamika adalah 
+Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, dimana fluida dianggap tidak termampatkan (incompressible) dan tidak memiliki viskositas atau dapat diabaikan. Dalam ilmu hidrodinamika, terdapat setidaknya 3 pemodelan yang digunakan dalam berbagai bidang yaitu Model Hidrodinamika 1-Dimensi, 2-Dimensi, dan 3-Dimensi. Pada modoul ini, pemodelan hidrodinamika yang digunakan adalah model hidrodinamika 1-Dimensi yang merupakan model paling sederhana dengan arah tinjauan satu sumbu saja; sumbu x atau sumbu y.
+
+Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionulkir, pengkajian klimatologi laut atau sekadar hubungan antara elevasi muka air laut dengan salah satu faktor oseanografi suatu perairan. Model hidrodinamika sendiri dibangun berdasarkan dua konsep utama yaitu Hukum Momentum dan Konservasi Massa. Untuk menghasilkan suatu "produk" dari model hidrodinamika 1D (seperti grafik, simulasi perubahan arus yang ditinjau, penyelesaian perhitungan dsb), memerlukan script pemodelan. Salah satu contoh script yang dilakukan untuk mengetahui korelasi antara elevasi muka air laut dan kecepatan arus terhadap ruang dan waktu dengan bahasa pemrograman Phyton adalah sebagai berikut: 
+
+**Library Pemrograman**
+'import matplotlib.pyplot as plt'
+
 # Modul 4 = Persamaan Hidrodinamika 2D
 
 Perbedaan Antara 1 Dimensi dan 2 Dimensi
