@@ -110,9 +110,8 @@ Hidrodinamika merupakan cabang ilmu yang mempelajari tentang fenomena yang terja
 Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionulkir, pengkajian klimatologi laut atau sekadar hubungan antara elevasi muka air laut dengan salah satu faktor oseanografi suatu perairan. Model hidrodinamika sendiri dibangun berdasarkan dua konsep utama yaitu Hukum Momentum dan Konservasi Massa. Untuk menghasilkan suatu "produk" dari model hidrodinamika 1D (seperti grafik, simulasi perubahan arus yang ditinjau, penyelesaian perhitungan dsb), memerlukan script pemodelan. Salah satu contoh script yang dilakukan untuk mengetahui korelasi antara elevasi muka air laut dan kecepatan arus terhadap ruang dan waktu dengan bahasa pemrograman Phyton adalah sebagai berikut: 
 
 **Library Pemrograman**
-
-import matplotlib.pyplot as plt
-import numpy as np
+`import matplotlib.pyplot as plt` (digunakan untuk menampilkan visualisai hasil code)
+`import numpy as np`
 
 # Modul 4 = Persamaan Hidrodinamika 2D
 
