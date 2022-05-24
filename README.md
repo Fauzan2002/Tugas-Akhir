@@ -356,17 +356,18 @@ Perbedaan Antara 1 Dimensi dan 2 Dimensi
 - Digunakan  untuk meneliti kadar zat kimia berdasarkan kedalaman dan luasan di daerah penelitian
 
 Konsep Model Hidrodinamika 2D
-
 - Adanya 2 (dua) parameter yang dipakai atau dicari seperti pergerakan arus dan pengaruhnya (contoh: pergerakan sedimen). Parameter ini biasanya akan ditemukan dalam berbagai website pemerintah atau bisa berasal dari penelitian lapangan yang kita lakukan
 - Anomali, dimana anomali ini dapat mengganggu hasil pemodelan. Dalam pemodelan gelombang, anomali ini dapat ditunjukkan seperti adanya badai yang dapat mempengaruhi angin pada perairan tersebut. Anomali ini juga akan menentukan korelasi atau hubungan antar parameter tersebut, apakah positif atau negatif
 
-Penerapan di Bidang Oseanografi
+Adapun persamaan pembangun yang digunakan adalah persamaan kontinuitas dan persamaan momentum. 
 
+Penerapan di Bidang Oseanografi meliputi hal-hal seperti:
 - Pemodelan gelombang karena angin
 - Pemodelan sampah plastik di laut
 - Pemodelan coastal dynamics dan sedimentasi pantai
 
 Secara umum, persamaan ini merupakan salah satu persamaan yang sering digunakan dalam penelitian oseanografi. Hal ini disebabkan persamaan ini mendekati bentuk asli dari fenomena yang ada di alam. Dan persamaan ini merupakan persamaan yang yang menjadi dasar dalam aplikasi pemodelan, semisal Delft 3D dan MIKE 21. Contoh dalam penggunaan script pada modeling hidrodinamika 2 dimensi ini adalah pada pemodelan NDBC.
+
 NDBC/National Data Buoy Center adalah sebuah website di bawah kendali NOAA/National Oceanic and Atmospheric Administration untuk menyediakan data mengenai data hidroseanografi yang terdapat pada buoy. Buoy tersebut tersebar di beberapa perairan di seluruh dunia dari pesisir barat dan timur AS hingga Australia dan Kutub Utara. Adapun penelitian kali ini adalah untuk mengetahui parameter hidroseanografi yang terdeteksi di suatu buoy. Adapun pemodelan ini menggunakan Python dengan susunan sebagai berikut:
 
 **Persamaan Awal**
@@ -390,7 +391,7 @@ from siphon.simplewebservice.ndbc import NDBC
 ```
 # Get a pandas data frame of all of the observations, meteorogical data is the default
 # observation set to query
-df = NDBC.realtime_observations('41029') #Station ID
+df = NDBC.realtime_observations('46036') #Station ID
 df.head()
 
 # Let's make a simple times series plot to checkout what the data look like.
@@ -422,3 +423,5 @@ plt.show()
 Adapun pada pemodelan ini didapatkan hasil sebagai berikut
 ![download](https://user-images.githubusercontent.com/105926713/170096712-c44b85f3-c84e-46b7-9dc4-b26c3947dbb0.png)
 
+Data di atas akan disesuaikan dengan data yang disediakan oleh NDBC. Data tersebut terdapat pada gambar berikut
+![plot_wind_pres](https://user-images.githubusercontent.com/105926713/170097324-47d2c612-dacf-4f8e-a2e8-67dd55a6688f.png)
