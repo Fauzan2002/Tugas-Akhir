@@ -172,8 +172,11 @@ if cfl >= q:
     sys.exit ()
 #%%
 ```
-Adapun hasil dari pemodelan ini adalah sebagai berikut 
+Adapun hasil dari pemodelan ini adalah sebagai berikut
+**Timestep = 0**
 ![1](https://user-images.githubusercontent.com/105926713/170093933-ee467a0a-fa87-4913-bcca-a46fc54eb018.jpg)
+
+**Timestep = 50**
 ![50](https://user-images.githubusercontent.com/105926713/170094012-79120a61-d66e-439a-b262-3f3f80d099e6.jpg)
 
 # Modul 3 = Persamaan Hidrodinamika 1D
